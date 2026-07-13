@@ -1,4 +1,5 @@
-import { Scale, MapPin, Mail, Phone } from "lucide-react";
+import logo from "../assets/logo-lbhliku.png";
+import { MapPin, Mail, Phone } from "lucide-react";
 
 const kantorLBH = [
   "LBH LIKU Papua",
@@ -24,9 +25,11 @@ export default function Footer() {
           {/* Column 1 - About */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-[#8B6914] rounded flex items-center justify-center">
-                <Scale className="w-5 h-5 text-white" />
-              </div>
+               <img
+                  src={logo}
+                  alt="LBH LIKU LAW CENTER"
+                  className="w-12 h-12 object-contain shrink-0"
+                />
               <div>
                 <span className="text-white font-bold text-sm">LBH LIKU</span>
                 <span className="block text-[10px] text-white/60 -mt-0.5">
