@@ -59,18 +59,15 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <a href="#hero" className="flex items-center gap-2 shrink-0">
-            <div className="w-10 h-10 bg-[#8B6914] rounded flex items-center justify-center">
-              <svg
-                viewBox="0 0 24 24"
-                className="w-6 h-6 text-white"
-                fill="currentColor"
-              >
-                <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z" />
-              </svg>
-            </div>
+          <a href="#hero" className="flex items-center gap-3 shrink-0">
+            <img
+              src="https://raw.githubusercontent.com/jenderal45/lbhliku/main/app/img/logo-lbhliku.png"
+              alt="Logo LBH LIKU"
+              className="w-11 h-11 object-contain"
+            />
+          
             <div className="hidden sm:block">
-              <span className="text-white font-bold text-sm tracking-wide">
+              <span className="block text-white font-bold text-sm tracking-wide">
                 LBH LIKU
               </span>
               <span className="block text-[10px] text-white/70 -mt-0.5">
@@ -78,7 +75,7 @@ export default function Navbar() {
               </span>
             </div>
           </a>
-
+    
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-1">
             {navLinks.map((link) => (
