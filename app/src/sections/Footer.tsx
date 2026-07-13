@@ -1,4 +1,4 @@
-import logo from "../assets/logo-lbhliku.png";
+import logo from "/img/logo-lbhliku.png";
 import { MapPin, Mail, Phone } from "lucide-react";
 
 const kantorLBH = [
