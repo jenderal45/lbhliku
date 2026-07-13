@@ -1,3 +1,4 @@
+import logo from "../../img/logo-lbhliku.png";
 import { MapPin, Mail, Phone } from "lucide-react";
 
 const kantorLBH = [
@@ -25,7 +26,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
                <img
-                  src="/img/logo-lbhliku.png"
+                  src={logo}
                   alt="LBH LIKU LAW CENTER"
                   className="w-12 h-12 object-contain"
                 />
