@@ -26,9 +26,9 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
                <img
-                  src={logo}
+                  src="/img/logo-lbhliku.png"
                   alt="LBH LIKU LAW CENTER"
-                  className="w-12 h-12 object-contain shrink-0"
+                  className="w-12 h-12 object-contain"
                 />
               <div>
                 <span className="text-white font-bold text-sm">LBH LIKU</span>
