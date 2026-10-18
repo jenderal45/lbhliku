@@ -45,16 +45,16 @@ export default function Footer() {
               <div className="flex items-start gap-3 text-sm text-white/70">
                 <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-[#C4A035]" />
                 <span>
-                  Jl. Keadilan No. 45, Menteng, Jakarta Pusat 10320
+                  Gp.portal, Jl. Kp. Utan, RT.04/RW.04, No.29, Ragunan, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12550
                 </span>
               </div>
               <div className="flex items-center gap-3 text-sm text-white/70">
                 <Mail className="w-4 h-4 shrink-0 text-[#C4A035]" />
-                <span>info@lbhliku.or.id</span>
+                <span>lbhliku@gmail.com</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-white/70">
                 <Phone className="w-4 h-4 shrink-0 text-[#C4A035]" />
-                <span>(+62) 21 - 3929840</span>
+                <span>+62 822-6186-5636</span>
               </div>
             </div>
           </div>
