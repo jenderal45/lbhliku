@@ -45,7 +45,7 @@ export default function Footer() {
               <div className="flex items-start gap-3 text-sm text-white/70">
                 <MapPin className="w-4 h-4 mt-0.5 shrink-0 text-[#C4A035]" />
                 <span>
-                  Gp.portal, Jl. Kp. Utan, RT.04/RW.04, No.29, Ragunan, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12550
+                  Gp.portal, Jl. Kp. Utan, RT.05/RW.04, No.29, Ragunan, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12550
                 </span>
               </div>
               <div className="flex items-center gap-3 text-sm text-white/70">
